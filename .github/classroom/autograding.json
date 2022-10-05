@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "T1",
+      "setup": "",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
+      "input": "1",
+      "output": "Pi times radius squared",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "T2",
+      "setup": "",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
+      "input": "2",
+      "output": "Length times width",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "T3",
+      "setup": "",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
+      "input": "3",
+      "output": "Pi times radius squared times height",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "T4",
+      "setup": "",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
+      "input": "4",
+      "output": "Well okay then, good bye!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "T5",
+      "setup": "",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
+      "input": "5",
+      "output": "Not good with numbers",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
